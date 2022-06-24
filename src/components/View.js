@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const View = ({ singleItem, deleteItem }) => {
+const View = ({ singleItem, deleteItem, editItem }) => {
     return (
 
         <div className="data-view">
             <Link to={`contact/${singleItem.id}`}>
                 <p>Name: {singleItem.name}</p>
                 <p>Phone Number: {singleItem.number}</p>
-                <button onClick={() => deleteItem(singleItem.id)} className="deleteItem">Delete</button>
             </Link>
+            <button onClick={() => deleteItem(singleItem.id)} className="deleteItem">Delete</button>
+
+            <button onClick={() => editItem(singleItem.id)} className="deleteItem">Edit</button>
         </div>
 
 
