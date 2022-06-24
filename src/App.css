@@ -1,3 +1,4 @@
+/* Info */
 .form-container{
   height: 30vh;
   width: 70%;
@@ -19,6 +20,7 @@
   color: green;
 }
 
+/* View */
 .data-view{
   height: 20vh;
   width: 50%;
@@ -33,3 +35,25 @@
   padding: 10px;
   color: red;
 }
+
+
+
+/*
+.table {
+  display: table;
+  width: auto;
+  border: 1px solid #666666;
+}
+
+.table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.table-col {
+  float: left;
+  display: table-column;
+  width: 200px;
+  border: 1px solid #ccc;
+} */
