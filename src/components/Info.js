@@ -64,7 +64,7 @@ const Info = () => {
         if (!number) {
             errors = 'Phone Number is required!'
         } else if (!regex.test(number)) {
-            errors = 'This is not a valid Phone Number format!'
+            errors = 'Give Bangladeshi phone numbers (likes, +88017XXXXXXXX or 017XXXXXXXX)'
         }
         return errors
     }
