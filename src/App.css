@@ -23,6 +23,13 @@ a{
   color: green;
 }
 
+@media screen and (max-width: 778px) {
+  .form-container{
+    width: 100%;
+    padding: 20px;
+  }
+}
+
 /* View */
 .data-view{
   height: 20vh;
