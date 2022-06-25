@@ -57,7 +57,7 @@ const Info = () => {
             }
         }
     }
-    console.log(formErrors)
+
     const validate = (number) => {
         let errors = ''
         const regex = /^(?:\+88|88)?(01[3-9]\d{8})$/
