@@ -11,7 +11,7 @@ a{
   border-radius: 5px;
 }
 .form-container input{
-  width: 20%;
+  width: 40%;
   height: 30px;
   margin: 15px;
   padding: 5px;
@@ -23,16 +23,10 @@ a{
   color: green;
 }
 
-@media screen and (max-width: 778px) {
-  .form-container{
-    width: 100%;
-    padding: 20px;
-  }
-}
 
 /* View */
 .data-view{
-  height: 20vh;
+  height: 25vh;
   width: 50%;
   background-color: rgb(232, 240, 240);
   margin: 5% auto;
