@@ -11,7 +11,7 @@ const View = ({ singleItem, deleteItem, editItem }) => {
             </Link>
             <button onClick={() => deleteItem(singleItem.id)} className="deleteItem">Delete</button>
 
-            <button onClick={() => editItem(singleItem.id)} className="deleteItem">Edit</button>
+            <button onClick={() => editItem(singleItem.id)} className="editItem">Edit</button>
         </div>
 
 

@@ -3,7 +3,7 @@ a{
 }
 /* Info */
 .form-container{
-  height: 30vh;
+  height: 40vh;
   width: 70%;
   background-color: rgb(232, 240, 240);
   margin: 5% auto;
@@ -37,6 +37,12 @@ a{
   margin: 15px;
   padding: 10px;
   color: red;
+}
+
+.data-view .editItem{
+  margin: 15px;
+  padding: 10px;
+  color: blue;
 }
 
 

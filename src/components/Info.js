@@ -93,6 +93,7 @@ const Info = () => {
 
     return (
         <>
+            <h1 style={{ textAlign: 'center' }}>Explore Crud</h1>
             <form onSubmit={handleSubmit} className='form-container'>
                 <input
                     type='text'
@@ -108,7 +109,7 @@ const Info = () => {
                     value={number}
                     id='phone-number'
                 />
-                <p>{formErrors}</p>
+                <p style={{ color: 'red' }}>{formErrors}</p>
                 <br />
                 <button type='submit'>Enter</button>
             </form>
